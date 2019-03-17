@@ -3,7 +3,7 @@
 <head>
 
 	<meta charset="utf-8">
-	<link rel="stylesheet" type="text/css" href="css/1970s.css">
+	<link rel="stylesheet" type="text/css" href="1970s.css">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
 	<link rel="stylesheet" href="css/animate.css">
 	<link href="https://fonts.googleapis.com/css?family=Russo+One" rel="stylesheet">
@@ -18,20 +18,25 @@
 			new WOW().init();
 		</script>
 	<header>
-		<div id="pp">
-			SuperCar
-		</div>
+
 
 		<!--menu______________________________________________________ -->
-		<nav class="dws-menu">
-			<ul>
-				<li><a href="index.html"><i class="fa fa-"></i>Головна</a></li>
-				<li><a href="#"><i class="fa fa-"></i>Фотогалерея</li>
-				<li><a href="pro.html"><i class="fa fa-"></i>Про нас</a></li>
-				<li><a href="Contact.html"><i class="fa fa-"></i>Відправ повідомлення</a></li>
-				<li><a href="About.html"><i class="fa fa-"></i>Де нас знайти</a></li>
-			</ul>
-		</nav>
+		  <div class="header">
+    <a href="index.html"><h2 class="logo" id="pp">SuperCar</h2></a>
+    <input type="checkbox" id="chk">
+    <label for="chk" class="show-menu-btn">
+      <i class="fas fa-ellipsis-h"></i>
+    </label>
+
+    <ul class="menu">
+      
+      <a href="gallery.html">Фотогалерея</a>
+      <a href="About.html">Про нас</a>
+      <label for="chk" class="hide-menu-btn">
+        <i class="fas fa-times"></i>
+      </label>
+    </ul>
+  </div>
 		<!--menu______________________________________________________ -->
 	</header>
 	<!--________________________________________ 
@@ -50,7 +55,9 @@
 		</div>
 		-->
 
-		<div class="dws-wrapper"><a href="https://uk.wikipedia.org/wiki/Ferrari_Berlinetta_Boxer"><img src="img/1970s1.jpg" alt="Анимация при наведении">
+		<div id="fff">1970-ті</div>
+ 
+		<div class="dws-wrapper"><a href="https://uk.wikipedia.org/wiki/Ferrari_Berlinetta_Boxer"><img src="1970s1.jpg" alt="Анимация при наведении">
 			<div class="dws-text">
 			<h3>Ferrari Berlinetta Boxer </h3>
 			<p>(1973–1984)</p>
@@ -58,7 +65,7 @@
 		</a>
 		</div>
 
-		<div class="dws-wrapper"><a href="https://uk.wikipedia.org/wiki/Lamborghini_Countach"><img src="img/1970s2.jpg" alt="Анимация при наведении">
+		<div class="dws-wrapper"><a href="https://uk.wikipedia.org/wiki/Lamborghini_Countach"><img src="1970s2.jpg" alt="Анимация при наведении">
 			<div class="dws-text">
 			<h3>Lamborghini Countach LP500 S</h3>
 			<p>(1974–1981)</p>
@@ -66,7 +73,7 @@
 		</a>
 		</div>
 
-		<div class="dws-wrapper"><a href="https://uk.wikipedia.org/wiki/Porsche_911"><img src="img/1970s3.jpg" alt="Анимация при наведении">
+		<div class="dws-wrapper"><a href="https://uk.wikipedia.org/wiki/Porsche_911"><img src="1970s3.jpg" alt="Анимация при наведении">
 			<div class="dws-text">
 			<h3>Porsche 911 Turbo </h3>
 			<p>(1975–1989) </p>
@@ -74,7 +81,7 @@
 		</a>
 		</div>
 
-		<div class="dws-wrapper"><a href="https://uk.wikipedia.org/wiki/Lotus_Esprit"><img src="img/1970s4.jpg" alt="Анимация при наведении">
+		<div class="dws-wrapper"><a href="https://uk.wikipedia.org/wiki/Lotus_Esprit"><img src="1970s4.jpg" alt="Анимация при наведении">
 			<div class="dws-text">
 			<h3>Lotus Esprit S1 </h3>
 			<p>(1976-1978) </p>
@@ -82,7 +89,7 @@
 		</a>
 		</div>
 
-		<div class="dws-wrapper"><a href="https://uk.wikipedia.org/wiki/De_Tomaso_Pantera"><img src="img/1970s5.jpg" alt="Анимация при наведении">
+		<div class="dws-wrapper"><a href="https://uk.wikipedia.org/wiki/De_Tomaso_Pantera"><img src="1970s5.jpg" alt="Анимация при наведении">
 			<div class="dws-text">
 			<h3>De Tomaso Pantera </h3>
 			<p>(1971-1992)</p>
@@ -90,13 +97,15 @@
 		</a>
 		</div>
 
-		<div class="dws-wrapper"><a href="https://uk.wikipedia.org/wiki/BMW_M1"><img src="img/1970s6.jpg" alt="Анимация при наведении">
+		<div class="dws-wrapper"><a href="https://uk.wikipedia.org/wiki/BMW_M1"><img src="1970s6.jpg" alt="Анимация при наведении">
 			<div class="dws-text">
 			<h3>BMW M1 </h3>
 			<p>(1978-1981)</p>
 			</div>
 		</a>
 		</div>
+
+		<a href="gallery.html"><div class="butt">Назад</div></a>
 
 	</section>
 
